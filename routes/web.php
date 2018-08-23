@@ -1,7 +1,5 @@
 <?php
 
-
-
 Route::get('/', [
 	'as'=>'root_path',
 	'uses'=>'PagesController@home'
